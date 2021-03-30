@@ -13,7 +13,7 @@ try:
                 print(f2.readlines())
         elif ch == 2:
             file1 = input("enter the name of the existing file")
-            os.remove("hi.txt")
+            os.remove(file1)
         elif ch == 3:
             print()
 except FileNotFoundError:
