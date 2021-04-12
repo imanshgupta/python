@@ -27,7 +27,9 @@ def calculate_time(func):
 
 # this can be added to any function present,
 # in this case to calculate a factorial
-@calculate_time
+alculate_time@c
+
+
 def factorial(num):
 
     # sleep 2 seconds because it takes very less time
